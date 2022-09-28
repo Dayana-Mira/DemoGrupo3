@@ -1,3 +1,3 @@
 FROM nginx:1.23.1
 
-COPY taller/demo/ /usr/share/nginx/html
+COPY build/web/ /usr/share/nginx/html
